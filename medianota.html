@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MédiaDasNotas</title>
+    
+</head>
+<body>
+    <script language="JavaScript">
+        var a;
+        var b;
+        var result=0; 
+        var avg=0; 
+        
+        function Calcular()
+        {
+         a=parseInt(form1.txtNum1.value);
+         b=parseInt(form1.txtNum2.value);
+         
+         result=a+b;
+         avg = result/2;
+        
+        document.write("O resultado é  :"+ "<b>" + result  +  "<b>" + "</br>");
+        
+        document.write("Sua media é  :"+ "<b>" + avg  +  "<b>" + "</br>");
+        
+        if(avg > 6)
+        {
+            
+            document.write("Sua nota é   :"+"<b>" + "Aprovado" +  "<b>" );
+               
+        }
+        else
+        {
+            document.write("Sua nota é   :"+ "<b>" + "Reprovado"  +  "<b>" );
+        }
+        }
+        </script>
+        
+        <html>
+        <head></head>
+        <body>
+            <h2>Média das notas</h2> 
+        <form name="form1">
+        <b>Primeira nota:</b><INPUT type="textbox" name="txtNum1"> </br>
+        <b>Segunda nota :</b><INPUT type="textbox" name="txtNum2"> </br>
+           
+        <INPUT type="button" Value="Calcular" onClick='Calcular()'>
+        </form>
+        </body>
+        </html>

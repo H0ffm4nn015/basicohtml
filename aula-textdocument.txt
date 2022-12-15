@@ -1,0 +1,64 @@
+                                                  Padrao Web 
+                                                   3/8/2022 
+
+-Http e Https= Ah diferenca eh a seguranca ... htpps eh mais seguro do que o Http. (O protocolo HTTPS (HyperText Transfer Protocol Secure) é idêntico ao HTTP e surgiu com o intuito de 
+substituí-lo, porém, foi adicionada uma camada do SSL (Secure Sockets Layer) ou de TLS (Transfer Layer Security), o seu sucessor.)
+
+-Programador Back End e Front End .
+
+-Css,JavaScript, Html  
+
+-Html=Eh uma linguagem padrao para criar paginas da web,Descreve a estrutura de uma pagina Web,HTML nao eh yma inlguagem de programacao.
+Eh linguagem de marcacao.
+
+ELEMENTO HTML
+1.A tag de abertura <P> 
+2.A tag de fechamento </p>
+3.O Conteudo
+        
+    Estrutura Basica 
+
+<!DOCTYPE thml>
+
+<html>
+ <title>Exemplo</title>
+ <meta charset="UTF-8"> 
+</head>
+
+<body>
+ <h1>Cabecalho</h1> 
+ <p>Paragrafo</p>
+</body>
+</html>
+
+-Tag <br? eh uma tag vazia, pois nao tem tag de fechamento.
+-<img> (Height e width servem para alterar o tamanho de exibicao da imagem em uma pagina, <h1>-<h6> (Cabecalho)
+
+-Mesmo que voce exiba um arquivo menor ... o tamanho/mb dele continua o mesmo
+-"Arquivo.Jpg" tem perda de qualidade.
+-Alt( Para deficientes visuais)
+-Nic br Regristro.Br Cuida dos Dominios que terminam com .br 
+
+-<Img Src= O link da imagem >  (.png (extensao) ) px:Pixel
+  
+                                                                          
+                                                                             PARA ATIVIDADE:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exemplo</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>Cabeçalho</h1>
+<p>Parágrafo
+<br>
+outra linha</p>
+<p>Hello World!</p>
+<img src=""
+alt=""
+width="100px"
+>
+</body>
+</html>
+

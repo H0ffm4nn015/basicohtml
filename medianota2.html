@@ -1,0 +1,56 @@
+<html lang="pt-br">
+<head>
+    <title>PadroesWEB</title>
+    <meta charset="UTF-8">
+    
+     <script>
+    function calcula_media(i)
+    {
+        var n1 = document.getElementById("n1_aluno_" + i).value;
+        var n2 = document.getElementById("n2_aluno_" + i).value;
+        var media = document.getElementById("media_aluno_" + i);
+        var resultado = document.getElementById("resultado_aluno_" + i);
+
+        var calculo = (parseFloat(n1) + parseFloat(n2)) / 2;
+
+        if(calculo >= 7)
+        {
+            media.innerHTML = "<div class='text-success'>" + calculo + "</div>";
+            resultado.innerHTML = "Aprovado";
+        }
+        else
+        {
+            media.innerHTML = "<div class='text-danger'>" + calculo + "</div>";
+            resultado.innerHTML = "Reprovado";
+        }
+    }
+    </script>
+</head>
+<body>
+
+        <div class="container">
+          <h2>Digite suas notas abaixo: </h2>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+               
+                <th>N1</th>
+                <th>N2</th>
+                <th>Média</th>
+                <th>Resultado Final</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               
+                <td><input id="n1_aluno_0" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(0)"></td>
+                <td><input id="n2_aluno_0" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(0)"></td>
+                <td><div id="media_aluno_0"> </div></td>
+                <td><div id="resultado_aluno_0">-- </div></td>
+              </tr>
+              <tr>
+            
+            </tbody>
+          </table>
+        </div>
+</body>
